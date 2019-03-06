@@ -1,0 +1,6 @@
+framework module Pods_Litemint {
+  umbrella header "Pods-Litemint-umbrella.h"
+
+  export *
+  module * { export * }
+}

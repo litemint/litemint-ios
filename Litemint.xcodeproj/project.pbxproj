@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18ABAB302229577200C220E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABAB2F2229577200C220E2 /* AppDelegate.swift */; };
+		18ABAB322229577200C220E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABAB312229577200C220E2 /* ViewController.swift */; };
+		18ABAB352229577200C220E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ABAB332229577200C220E2 /* Main.storyboard */; };
+		18ABAB372229577700C220E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18ABAB362229577700C220E2 /* Assets.xcassets */; };
+		18ABAB3A2229577700C220E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ABAB382229577700C220E2 /* LaunchScreen.storyboard */; };
+		18ABAB442229606400C220E2 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABAB432229606400C220E2 /* Toast.swift */; };
+		18DFED06222F8D17002F8FC5 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFED05222F8D17002F8FC5 /* Notification.swift */; };
+		18FF211A222E7B3F0011C3D3 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF2119222E7B3F0011C3D3 /* AppConstant.swift */; };
+		2AB42076853912A97E5A113A /* Pods_Litemint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5070C932B7446E47CCBE5C17 /* Pods_Litemint.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18ABAB2C2229577200C220E2 /* Litemint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Litemint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18ABAB2F2229577200C220E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18ABAB312229577200C220E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18ABAB342229577200C220E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18ABAB362229577700C220E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18ABAB392229577700C220E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18ABAB3B2229577700C220E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18ABAB432229606400C220E2 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		18DFED05222F8D17002F8FC5 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		18FF2119222E7B3F0011C3D3 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		5070C932B7446E47CCBE5C17 /* Pods_Litemint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Litemint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		942271D04FB58F7AA2D60EAF /* Pods-Litemint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Litemint.debug.xcconfig"; path = "Target Support Files/Pods-Litemint/Pods-Litemint.debug.xcconfig"; sourceTree = "<group>"; };
+		A344156157DE99FD5E409BF6 /* Pods-Litemint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Litemint.release.xcconfig"; path = "Target Support Files/Pods-Litemint/Pods-Litemint.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18ABAB292229577200C220E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB42076853912A97E5A113A /* Pods_Litemint.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0226D35CA98DD8C9D6CD9DB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				942271D04FB58F7AA2D60EAF /* Pods-Litemint.debug.xcconfig */,
+				A344156157DE99FD5E409BF6 /* Pods-Litemint.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		18ABAB232229577200C220E2 = {
+			isa = PBXGroup;
+			children = (
+				18ABAB2E2229577200C220E2 /* Litemint */,
+				18ABAB2D2229577200C220E2 /* Products */,
+				0226D35CA98DD8C9D6CD9DB7 /* Pods */,
+				F3266C22A452878477F51E40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18ABAB2D2229577200C220E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18ABAB2C2229577200C220E2 /* Litemint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18ABAB2E2229577200C220E2 /* Litemint */ = {
+			isa = PBXGroup;
+			children = (
+				18ABAB412229606400C220E2 /* Utility */,
+				18ABAB2F2229577200C220E2 /* AppDelegate.swift */,
+				18ABAB312229577200C220E2 /* ViewController.swift */,
+				18ABAB332229577200C220E2 /* Main.storyboard */,
+				18ABAB362229577700C220E2 /* Assets.xcassets */,
+				18ABAB382229577700C220E2 /* LaunchScreen.storyboard */,
+				18ABAB3B2229577700C220E2 /* Info.plist */,
+			);
+			path = Litemint;
+			sourceTree = "<group>";
+		};
+		18ABAB412229606400C220E2 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				18ABAB422229606400C220E2 /* ToastView */,
+				18FF2119222E7B3F0011C3D3 /* AppConstant.swift */,
+				18DFED05222F8D17002F8FC5 /* Notification.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		18ABAB422229606400C220E2 /* ToastView */ = {
+			isa = PBXGroup;
+			children = (
+				18ABAB432229606400C220E2 /* Toast.swift */,
+			);
+			path = ToastView;
+			sourceTree = "<group>";
+		};
+		F3266C22A452878477F51E40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5070C932B7446E47CCBE5C17 /* Pods_Litemint.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18ABAB2B2229577200C220E2 /* Litemint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18ABAB3E2229577700C220E2 /* Build configuration list for PBXNativeTarget "Litemint" */;
+			buildPhases = (
+				5F03D687571CBF292EE9E6A3 /* [CP] Check Pods Manifest.lock */,
+				18ABAB282229577200C220E2 /* Sources */,
+				18ABAB292229577200C220E2 /* Frameworks */,
+				18ABAB2A2229577200C220E2 /* Resources */,
+				741E6058828A84CAA40D6B03 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Litemint;
+			productName = Litemint;
+			productReference = 18ABAB2C2229577200C220E2 /* Litemint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18ABAB242229577200C220E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Emple;
+				TargetAttributes = {
+					18ABAB2B2229577200C220E2 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 18ABAB272229577200C220E2 /* Build configuration list for PBXProject "Litemint" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18ABAB232229577200C220E2;
+			productRefGroup = 18ABAB2D2229577200C220E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18ABAB2B2229577200C220E2 /* Litemint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18ABAB2A2229577200C220E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18ABAB3A2229577700C220E2 /* LaunchScreen.storyboard in Resources */,
+				18ABAB372229577700C220E2 /* Assets.xcassets in Resources */,
+				18ABAB352229577200C220E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F03D687571CBF292EE9E6A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Litemint-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		741E6058828A84CAA40D6B03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Litemint/Pods-Litemint-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/QRCodeReader.swift/QRCodeReader.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCodeReader.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Litemint/Pods-Litemint-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18ABAB282229577200C220E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18ABAB322229577200C220E2 /* ViewController.swift in Sources */,
+				18DFED06222F8D17002F8FC5 /* Notification.swift in Sources */,
+				18ABAB442229606400C220E2 /* Toast.swift in Sources */,
+				18ABAB302229577200C220E2 /* AppDelegate.swift in Sources */,
+				18FF211A222E7B3F0011C3D3 /* AppConstant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18ABAB332229577200C220E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18ABAB342229577200C220E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18ABAB382229577700C220E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18ABAB392229577700C220E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18ABAB3C2229577700C220E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18ABAB3D2229577700C220E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18ABAB3F2229577700C220E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 942271D04FB58F7AA2D60EAF /* Pods-Litemint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = JRP5598CZJ;
+				INFOPLIST_FILE = Litemint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litemint.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bd714630-2239-46eb-9115-a8e3bee34b03";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Development_litemint_3";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18ABAB402229577700C220E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A344156157DE99FD5E409BF6 /* Pods-Litemint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = JRP5598CZJ;
+				INFOPLIST_FILE = Litemint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litemint.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bd714630-2239-46eb-9115-a8e3bee34b03";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Development_litemint_3";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18ABAB272229577200C220E2 /* Build configuration list for PBXProject "Litemint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18ABAB3C2229577700C220E2 /* Debug */,
+				18ABAB3D2229577700C220E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18ABAB3E2229577700C220E2 /* Build configuration list for PBXNativeTarget "Litemint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18ABAB3F2229577700C220E2 /* Debug */,
+				18ABAB402229577700C220E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18ABAB242229577200C220E2 /* Project object */;
+}

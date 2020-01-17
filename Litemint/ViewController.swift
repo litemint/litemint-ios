@@ -34,8 +34,12 @@ class ViewController: UIViewController, WKScriptMessageHandler,QRCodeReaderViewC
     
     let imgviewSplash = UIImageView()
     
-    //MARK:- SETUP WEBVIEW
+    
+    
+   
+        //MARK:- SETUP WEBVIEW
     private func setupWebView() {
+        
         let contentController = WKUserContentController()
         let userScript = WKUserScript(
             source: "evaluateJavascript()",
@@ -47,8 +51,9 @@ class ViewController: UIViewController, WKScriptMessageHandler,QRCodeReaderViewC
         
         let config = WKWebViewConfiguration()
         config.userContentController = contentController
+     
         self.webView = WKWebView(frame: self.view.bounds, configuration: config)
-        
+         
         webView.navigationDelegate = self
     }
     
@@ -148,6 +153,18 @@ class ViewController: UIViewController, WKScriptMessageHandler,QRCodeReaderViewC
                         
                         self.notifications.scheduleNotification(notificationType: dict.value(forKey: "message") as? String ?? "", title: "LITEMINT")
                     }
+                    else if(name == EventHandlerType.lockOrientation.rawValue){
+                     AppUtility.lockOrientation(.portrait)
+                    }
+                    else if(name == EventHandlerType.unlockOrientation.rawValue)
+                    {
+                        
+                     AppUtility.lockOrientation(.all)
+
+                        self.webView.autoresizingMask = UIViewAutoresizing(rawValue: UIViewAutoresizing.flexibleWidth.rawValue | UIViewAutoresizing.flexibleHeight.rawValue)
+                    
+                    }
+                      
                 }
             }
         }
@@ -168,8 +185,9 @@ class ViewController: UIViewController, WKScriptMessageHandler,QRCodeReaderViewC
         if(url != URL(string: "https://app.litemint.com/?flavor=pepper&os=ios")){
             
             if (navigationAction.navigationType == .linkActivated || navigationAction.navigationType  == .other)  {
-                action = .cancel                  // Stop in WebView
-                UIApplication.shared.open(url, options: [:], completionHandler: nil)// Open in Safari
+                
+//                action = .cancel                  // Stop in WebView
+//                UIApplication.shared.open(url, options: [:], completionHandler: nil)// Open in Safari
             }
         }
        
@@ -286,3 +304,4 @@ class ViewController: UIViewController, WKScriptMessageHandler,QRCodeReaderViewC
     }
     
 }
+

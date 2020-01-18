@@ -65,7 +65,7 @@ class ViewController: UIViewController, WKScriptMessageHandler,QRCodeReaderViewC
         self.setupWebView()
         self.view.addSubview(self.webView)
         
-        if let url = URL(string: "https://app.litemint.com/?flavor=pepper&os=ios") {
+        if let url = URL(string: "https://app.litemint.com/?flavor=pepper&os=ios&v=131") {
             
             let request = URLRequest(url: url)
             self.webView.load(request)
@@ -182,12 +182,12 @@ class ViewController: UIViewController, WKScriptMessageHandler,QRCodeReaderViewC
         
         print(url)
         
-        if(url != URL(string: "https://app.litemint.com/?flavor=pepper&os=ios")){
+        if(url != URL(string: "https://app.litemint.com/?flavor=pepper&os=ios&v=131")){
             
-            if (navigationAction.navigationType == .linkActivated || navigationAction.navigationType  == .other)  {
+            if ((navigationAction.navigationType == .linkActivated || navigationAction.navigationType  == .other) && url.absoluteString.range(of: "litemint.store") == nil)  {
                 
-//                action = .cancel                  // Stop in WebView
-//                UIApplication.shared.open(url, options: [:], completionHandler: nil)// Open in Safari
+                action = .cancel // Stop in WebView
+                UIApplication.shared.open(url, options: [:], completionHandler: nil) // Open in Safari
             }
         }
        

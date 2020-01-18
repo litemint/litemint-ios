@@ -375,8 +375,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "Apple Distribution: LITEMINT LLC (JRP5598CZJ)";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.3.1;
 				DEVELOPMENT_TEAM = JRP5598CZJ;
 				INFOPLIST_FILE = Litemint/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -384,10 +385,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.litemint.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "bd714630-2239-46eb-9115-a8e3bee34b03";
-				PROVISIONING_PROFILE_SPECIFIER = litemint_dist;
+				PROVISIONING_PROFILE_SPECIFIER = Litemint1.3.1;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -399,8 +401,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "Apple Distribution: LITEMINT LLC (JRP5598CZJ)";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.3.1;
 				DEVELOPMENT_TEAM = JRP5598CZJ;
 				INFOPLIST_FILE = Litemint/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -408,10 +411,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.litemint.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "bd714630-2239-46eb-9115-a8e3bee34b03";
-				PROVISIONING_PROFILE_SPECIFIER = litemint_dist;
+				PROVISIONING_PROFILE_SPECIFIER = Litemint1.3.1;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

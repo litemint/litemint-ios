@@ -48,6 +48,7 @@ class ViewController: UIViewController, WKScriptMessageHandler,QRCodeReaderViewC
         )
         contentController.addUserScript(userScript)
         contentController.add(self, name: "callbackHandler")
+        contentController.add(self, name: "supportStorePolicy")
         
         let config = WKWebViewConfiguration()
         config.userContentController = contentController
@@ -66,7 +67,6 @@ class ViewController: UIViewController, WKScriptMessageHandler,QRCodeReaderViewC
         self.view.addSubview(self.webView)
         
         if let url = URL(string: "https://app.litemint.com/?flavor=pepper&os=ios&v=131") {
-            
             let request = URLRequest(url: url)
             self.webView.load(request)
         }
